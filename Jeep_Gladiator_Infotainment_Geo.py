@@ -11,7 +11,8 @@
 # pas_system.1.1.0.csv
 # pas_performance.1.0.0.log
 
-# This script will iterate through the folder and subfolders to find responsive log files.  It will 
+# This script will iterate through the folder and subfolders to find responsive log files.  It will find latitude and longitude values and add them to a CSV formatted report that provides the 
+# date and time, latitude, and longitude.
 
 #   Sample data for testing
 # 04/02/2023 19:25:07.008/14023/30/nv_location/LocProxyWorker_1/fstoreGPS/712/=Some GPS data are discarded. storeGPS = 0x20
