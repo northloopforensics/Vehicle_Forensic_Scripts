@@ -34,6 +34,7 @@ now = now.strftime("%Y%m%d_%H%M%S")
 folder = ###    PUT TARGET FOLDER HERE  ###
 report = folder + "/report_" + now + ".csv"
 
+#    regexs for date, lat, long, and heading.  heading not yet used.
 dateregex = re.compile("(\d{2})\/(\d{2})\/(\d{4}) (\d{2}):(\d{2}):(\d{2})\.(\d{3})")
 latituderegex = re.compile("(lat: (|-)(\d{2}).(\d{6}))|(dLatitude:\[((|-)\d{2}).(\d{6})\])|Latt:(|-)(\d{2}).(\d{6})|(Latitude = (|-)(\d{2}).(\d{6}))")
 longituderegex = re.compile("lon: (|-)(\d{2}).(\d{6})|(dLongitude:\[(|-)(\d{2}).(\d{6})\])|Long:(|-)(\d{2}).(\d{6})|(Longitude = (|-)(\d{2}).(\d{6}))")
